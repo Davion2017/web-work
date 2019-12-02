@@ -37,3 +37,14 @@ main .left .blogtab .blog .detail {
     font-size: 0.875rem;
     color: #566573;
 }
+
+main .right .money {
+    border: 0.0625rem solid #ddd;
+}
+
+main .right .title {
+    background: #f8f8f8;
+    line-height: 1.875rem;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}

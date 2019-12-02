@@ -48,3 +48,5 @@ header nav ul li:hover {
     transform: translateY(0);
     transition: transform .5s ease-out;
 }
+
+footer {}
