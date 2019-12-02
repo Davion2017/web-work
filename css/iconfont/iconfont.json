@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "356876",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "887946",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "6145525",
+      "name": "eye",
+      "font_class": "eye",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "7685353",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "8474293",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    }
+  ]
+}

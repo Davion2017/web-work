@@ -1,3 +1,39 @@
 main {
     margin-top: 1rem;
 }
+
+main .left .news-box ul {
+    padding: 0;
+    margin: 0;
+}
+
+main .left .news-box ul li {
+    list-style: none;
+    display: inline-block;
+    background: #fff;
+    color: #797b7c;
+    border: 1px solid #ddd;
+    margin-bottom: 0.625rem;
+    padding: 0.9375rem;
+    height: 7rem;
+}
+
+main .left .photos {
+    margin: 0;
+}
+
+main .left .blogtab .blog {
+    padding: 1rem 0;
+    height: 17.1875rem;
+}
+
+main .left .blogtab .blog .title {
+    padding: 0 2rem;
+    border-left: 0.5rem solid #3690CF;
+    font-size: 1.5rem;
+}
+
+main .left .blogtab .blog .detail {
+    font-size: 0.875rem;
+    color: #566573;
+}

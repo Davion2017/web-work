@@ -4,6 +4,7 @@
   "description": "前端开发实战作业",
   "main": "index.js",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0"
