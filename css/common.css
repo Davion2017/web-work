@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
+.fs-ssm{
+    font-size: 0.75rem; !important;
+}
+
+.fs-sm{
+    font-size: 0.875rem; !important;
+}
+
+.fs-nor{
+    font-size: 1rem; !important;
+}
+
+.fs-md{
+    font-size: 1.125rem; !important;
+}
+
+.fs-l{
+    font-size: 1.25rem; !important;
+}
+
+.fs-xl{
+    font-size: 1.375rem; !important;
+}
+
+.fs-xxl{
+    font-size: 1.5rem; !important;
+}
+
 body {
     background: url("../img/bg.png");
 }
@@ -38,15 +70,3 @@ header nav ul li:hover {
     background: #3690cf;
     color: #fff;
 }
-
-.slideUp {
-    transform: translateY(-100px);
-    transition: transform .5s ease-out;
-}
-
-.slideDown {
-    transform: translateY(0);
-    transition: transform .5s ease-out;
-}
-
-footer {}
