@@ -12,13 +12,3 @@ $('#click-rank').hover(() => {
     $('#click-rank-tab').show()
     $('#latest-articles-tab').hide()
 })
-
-// let rightBox = $('main .right')
-// const maxTop = rightBox.offset().top + 60
-// $(window).scroll((e) => {
-//     if ($(window).scrollTop() >= maxTop) {
-//         rightBox.css()
-//     } else {
-//
-//     }
-// })
