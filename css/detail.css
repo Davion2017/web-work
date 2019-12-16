@@ -1,0 +1,29 @@
+main .left .article .article-info{
+    font-size: 0.9rem;
+    color: #555;
+
+}
+
+main .left .article .summary{
+    background: #f6f6f6;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+main .left .article .context span{
+    display: block;
+    color: red;
+    margin: 1rem 0;
+}
+
+main .left .article .like-btn{
+    margin: 0 auto;
+    color: white;
+    background: #e2523a;
+    width: 8rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
