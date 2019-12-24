@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.box-area {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-date{
+    display: flex;
+    background: linear-gradient(to right, transparent 45%, #000 45%, #000 45%, transparent 50%);
+    order: 2;
+    text-align: center;
+    font-size: 1.75rem;
+    flex-basis: 6.25rem;
+    color: #fff;
+}
+
+.box-date > span{
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    margin: auto;
+    background: #797b7c;
+}
+
+.box-text{
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 1.5625rem;
+    color: #fff;
+    order: 3;
+    width: 80%;
+    padding-left: 0.625rem;
+    background: #0086b3;
+    margin-bottom: 3%;
+}
+
+.box-text, .custom {
+    width: 40%;
+}
+
+.box-right .box-text {
+    order: 1;
+    padding-right: 0.625rem;
+    border-radius: 1.5625rem;
+}
+
+.box-right .custom {
+    order: 3;
+}

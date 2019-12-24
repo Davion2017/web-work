@@ -1,0 +1,13 @@
+main {
+    background: #fcfcfc;
+}
+
+main > h2 {
+    color: #555;
+}
+
+main > p {
+    color: #555;
+    font-size: 1rem;
+    margin: 2rem 0;
+}

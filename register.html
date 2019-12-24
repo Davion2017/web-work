@@ -16,12 +16,12 @@
         <div class="row">
             <div class="logo float-left col-4">Davion个人博客</div>
             <ul class="col-8 row">
-                <li class="col-2">首页</li>
-                <li class="col-2">分类</li>
-                <li class="col-2">时间轴</li>
-                <li class="col-2">友情链接</li>
-                <li class="col-2 li-active">登录</li>
-                <li class="col-2">留言</li>
+                <li class="col-2"><a href="index.html">首页</a></li>
+                <li class="col-2"><a href="time.html">时间轴</a></li>
+                <li class="col-2"><a href="photo.html">照片墙</a></li>
+                <li class="col-2"><a href="login.html">登录</a></li>
+                <li class="col-2"><a href="comment.html">留言</a></li>
+                <li class="col-2"><a href="about.html">关于我</a></li>
             </ul>
         </div>
     </nav>
@@ -29,10 +29,10 @@
 
 <main class="container mt-5 w-25">
     <form action="" class="p-4">
-        <h3 class="text-center">注册</h3>
         <div id="msg-box" class="alert">
             <span id="msg"></span>
         </div>
+        <h3 class="text-center">注册</h3>
         <div class="form-group">
             <label for="username">用户名：</label>
             <input type="text" id="username" class="form-control">
@@ -61,7 +61,6 @@
             <label for="answer">答案：</label>
             <input type="text" id="answer" class="form-control">
         </div>
-
         <button type="button" id="register-btn" class="btn btn-block btn-primary">注册</button>
     </form>
 </main>
@@ -74,6 +73,6 @@
 <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script src="./js/common.js"></script>
-<script src="./js/login.js"></script>
+<script src="./js/register.js"></script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于我</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+<header>
+    <!--    导航-->
+    <nav class="container">
+        <div class="row">
+            <div class="logo float-left col-4">Davion个人博客</div>
+            <ul class="col-8 row">
+                <li class="col-2"><a href="index.html">首页</a></li>
+                <li class="col-2"><a href="time.html">时间轴</a></li>
+                <li class="col-2"><a href="photo.html">照片墙</a></li>
+                <li class="col-2"><a href="login.html">登录</a></li>
+                <li class="col-2"><a href="comment.html">留言</a></li>
+                <li class="col-2"><a href="about.html">关于我</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="container mt-3 p-4">
+    <h2>博主简介</h2>
+    <p>
+        我每天醒在鸟声里。我从梦里就听到鸟叫，直到我醒来。我听得出几种极熟悉的叫声，那是每天都叫的，似乎每天都在那个固定的枝头。
+        <span class="float-right">—— 汪曾祺 《汪曾祺散文》</span>
+    </p>
+    <div class="content p-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#base" class="nav-link active" data-toggle="tab">基本信息</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skill" class="nav-link" data-toggle="tab">工作技能</a>
+            </li>
+            <li class="nav-item">
+                <a href="#study" class="nav-link" data-toggle="tab">学习历程</a>
+            </li>
+        </ul>
+        <div class="tab-content py-3">
+            <div id="base" class="tab-pane active">
+                <div>
+                    <p>网名：Davion | 刘勇</p>
+                    <p>职业：学生，Java工程师</p>
+                    <p>邮箱：davion2017@foxmail.com</p>
+                </div>
+            </div>
+            <div id="skill" class="tab-pane">
+                <div>
+                    <p>SpringBoot开发</p>
+                    <p>Web后端开发</p>
+                    <p>Python开发</p>
+                    <p>C#开发</p>
+                    <p>Linux运维</p>
+                    <p>MySQL数据库开发</p>
+                </div>
+            </div>
+            <div id="study" class="tab-pane">
+                <div>
+                    <p>大一：C语言，数据结构，HTML5+CSS</p>
+                    <p>大二：数据库，C#基础，操作系统，JavaScript，C#进阶开发，软件工程，Python基础，Linux基础</p>
+                    <p>大三：J2SE，J2EE，计算机网络，计算机组成原理</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-secondary my-5">
+    Power by Davion
+</footer>
+
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="./js/common.js"></script>
+</body>
+</html>

@@ -12,4 +12,20 @@ $('#login-btn').click(() => {
         $('#password').focus()
         return;
     }
+    $.ajax({
+        url: base_url + '/user/login.do',
+        method: 'POST',
+        data: {
+            username: username,
+            password: password
+        },
+        success: res => {
+            if (res.status !== 0) {
+                $('#msg').text(res.msg)
+            } else {
+                $('#msg-box').removeClass('alert-danger').addClass('alert-success')
+                $('#msg').text('欢迎登录: ' + res.data.username)
+            }
+        }
+    })
 })
