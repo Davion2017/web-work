@@ -18,6 +18,16 @@ main .left .news-box ul li {
     height: 7rem;
 }
 
+main .left .news-box a{
+    text-decoration: none;
+    color: #797b7c;
+}
+
+main .left .news-box a:hover{
+    text-decoration: none;
+    color: #3690cf;
+}
+
 main .left .photos {
     margin: 0;
 }
@@ -33,49 +43,17 @@ main .left .blogtab .blog .title {
     font-size: 1.5rem;
 }
 
-main .left .blogtab .blog .detail {
-    font-size: 0.875rem;
-    color: #566573;
-}
-
-main .right .money {
-    border: 0.0625rem solid #ddd;
-}
-
-main .right .title {
-    background: #f8f8f8;
-    line-height: 1.875rem;
-    color: #333;
-    border-bottom: 1px solid #ddd;
-}
-
-main .right .panes span{
-    cursor: pointer;
-    font-weight: bold;
-}
-
-main .right .panes span:last-child{
-    border-left: 2px solid #000000;
-}
-
-main .right .panes .span-active{
-    color: #3690cf;
-}
-
-main .right .panes .articles{
-
-}
-
-main .right .panes .articles li{
-    list-style: none;
-    margin: 0 0 1rem 2rem;
-}
-
-main .right .panes .articles li a{
+main .left .blogtab .blog .title a{
     text-decoration: none;
     color: #444;
 }
 
-main .right .panes .articles li a:hover{
-    color: #000;
+main .left .blogtab .blog .title a:hover{
+    text-decoration: none;
+    color: #3690cf;
+}
+
+main .left .blogtab .blog .detail {
+    font-size: 0.875rem;
+    color: #566573;
 }

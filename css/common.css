@@ -81,3 +81,45 @@ header nav ul li:hover {
     background: #3690cf;
     color: #fff;
 }
+
+main .right .money {
+    border: 0.0625rem solid #ddd;
+}
+
+main .right .title {
+    background: #f8f8f8;
+    line-height: 1.875rem;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+main .right .panes span{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main .right .panes span:last-child{
+    border-left: 2px solid #000000;
+}
+
+main .right .panes .span-active{
+    color: #3690cf;
+}
+
+main .right .panes .articles{
+
+}
+
+main .right .panes .articles li{
+    list-style: none;
+    margin: 0 0 1rem 2rem;
+}
+
+main .right .panes .articles li a{
+    text-decoration: none;
+    color: #444;
+}
+
+main .right .panes .articles li a:hover{
+    color: #000;
+}

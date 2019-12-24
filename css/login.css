@@ -1,0 +1,9 @@
+main form{
+    background: white;
+    border: #ccc solid 1px;
+    border-radius: 1rem;
+}
+
+main form #msg-box {
+    display: none;
+}
